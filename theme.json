@@ -1,0 +1,80 @@
+```json
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+
+    "settings": {
+        "appearanceTools": true,
+
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1400px"
+        },
+
+        "color": {
+            "palette": [
+                {
+                    "slug": "primary",
+                    "name": "ITENTER Blue",
+                    "color": "#2563EB"
+                },
+                {
+                    "slug": "secondary",
+                    "name": "ITENTER Purple",
+                    "color": "#7C3AED"
+                },
+                {
+                    "slug": "accent",
+                    "name": "ITENTER Cyan",
+                    "color": "#06B6D4"
+                },
+                {
+                    "slug": "dark",
+                    "name": "ITENTER Dark",
+                    "color": "#081120"
+                     },
+                {
+                    "slug": "text",
+                    "name": "ITENTER Text",
+                    "color": "#334155"
+                },
+                {
+                    "slug": "muted",
+                    "name": "ITENTER Muted",
+                    "color": "#64748B"
+                },
+                {
+                    "slug": "light",
+                    "name": "ITENTER Light",
+                    "color": "#F8FAFC"
+                },
+                {
+                    "slug": "white",
+                    "name": "White",
+                    "color": "#FFFFFF"
+                }
+            ]
+        },
+
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "slug": "inter",
+                    "name": "Inter"
+                }
+            ]
+        }
+    },
+
+    "styles": {
+        "color": {
+            "background": "#FFFFFF",
+            "text": "#334155"
+        },
+
+        "typography": {
+            "fontFamily": "Inter, Arial, sans-serif"
+        }
+    }
+}

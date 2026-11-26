@@ -1,0 +1,135 @@
+css
+/*
+Theme Name: ITENTER Enterprise
+Theme URI: https://itenter.gr
+Author: ITENTER Information Technology
+Author URI: https://itenter.gr
+Description: Premium enterprise WordPress theme for ITENTER Information Technology.
+Version: 2.0.0
+Requires at least: 6.0
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+Text Domain: itenter
+*/
+
+json
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+
+    "settings": {
+
+        "appearanceTools": true,
+
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1400px"
+        },
+
+        "color": {
+
+            "custom": false,
+
+            "customGradient": false,
+
+            "palette": [
+
+                {
+                    "slug": "primary",
+                    "color": "#2563EB",
+                    "name": "ITENTER Blue"
+                },
+
+                {
+                    "slug": "secondary",
+                    "color": "#7C3AED",
+                    "name": "ITENTER Purple"
+                },
+
+                {
+                    "slug": "accent",
+                    "color": "#06B6D4",
+                    "name": "ITENTER
+                    Cyan"
+                },
+
+                {
+                    "slug": "dark",
+                    "color": "#081120",
+                    "name": "ITENTER Dark"
+                },
+
+                {
+                    "slug": "text",
+                    "color": "#334155",
+                    "name": "ITENTER Text"
+                },
+
+                {
+                    "slug": "white",
+                    "color": "#FFFFFF",
+                    "name": "White"
+                }
+
+            ]
+        },
+
+        "typography": {
+
+            "fontFamilies": [
+
+                {
+                    "fontFamily": "Inter, Arial, sans-serif",
+                    "slug": "inter",
+                    "name": "Inter"
+                }
+
+            ],
+
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "14px",
+                    "name": "Small"
+                },
+
+                {
+                    "slug": "medium",
+                    "size": "18px",
+                    "name": "Medium"
+                },
+
+                {
+                    "slug": "large",
+                    "size": "32px",
+                    "name": "Large"
+                },
+
+                {
+                    "slug": "x-large",
+                    "size": "56px",
+                    "name": "Extra Large"
+                }
+
+            ]
+        }
+    },
+    "styles": {
+
+        "color": {
+
+            "background": "#FFFFFF",
+
+            "text": "#334155"
+
+        },
+
+        "typography": {
+
+            "fontFamily": "Inter, Arial, sans-serif",
+
+            "lineHeight": "1.6"
+
+        }
+    }
+}
